@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateDossierImportationGlobalTable extends Migration
+class AddDossierImportationGlobalIdToTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateDossierImportationGlobalTable extends Migration
      */
     public function up()
     {
-        Schema::create('dossier_importation_global', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::table('produits', function (Blueprint $table) {
+            $table->integer('dossier_importation_global_id')->unsigned();
+            
+
         });
     }
 
@@ -26,6 +27,8 @@ class CreateDossierImportationGlobalTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('dossier_importation_global');
+        Schema::table('produits', function (Blueprint $table) {
+            //
+        });
     }
 }

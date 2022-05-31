@@ -15,15 +15,15 @@ class CreateProduitsTable extends Migration
     {
         Schema::create('produits', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('fournisseur_id');
-            $table->foreign('fournisseur_id')->references('id')->on('fournisseurs');
+            $table->integer('fournisseur_id')->unsigned();
+            
             $table->string('reference');
             $table->string('designation');
             $table->integer('quantite');
-            $table->string('nFacture');
-            $table->string('dateFacture');
+            
             $table->string('nLot/nSerie');
             $table->decimal('prixDevise', 10, 2);
+            $table->foreign('fournisseur_id')->references('id')->on('fournisseurs');
             $table->timestamps();
         });
     }
