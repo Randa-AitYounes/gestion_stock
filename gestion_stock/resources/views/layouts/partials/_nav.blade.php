@@ -340,16 +340,13 @@
         <ul class="main-navigation">
             <li class="nav-item has-class">
                 <a href="#!">
-                    <i class="ti-home"></i>
-                    <span>Dashboard</span>
+                    <i class="ti-files"></i>
+                    <span>Factures d'achats</span>
                 </a>
                 <ul class="tree-1">
-                    <li class="has-class"><a href="index.html">Default </a></li>
-                    <li><a href="widget.html">Widget</a></li>
-                    <li><a href="dashboard-ecommerce.html">Ecommerce</a></li>
-                    <li><a href="dashboard-crm.html">CRM</a></li>
-                    <li><a href="dashboard-analytics.html">Analytics</a></li>
-                    <li><a href="dashboard-project.html">Project</a></li>
+                    <li><a href="index.html">Ajouter une facture </a></li>
+                    <li><a href="widget.html">Liste des factures</a></li>
+                  
                 </ul>
             </li>
             <li class="nav-item">
