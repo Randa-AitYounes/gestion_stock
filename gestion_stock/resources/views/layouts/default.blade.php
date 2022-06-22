@@ -26,6 +26,10 @@
     <link rel="stylesheet" type="text/css" href="/assets/icon/themify-icons/themify-icons.css">
     <!-- ico font -->
     <link rel="stylesheet" type="text/css" href="/assets/icon/icofont/css/icofont.css">
+    <!-- ico-font -->
+    <link rel="stylesheet" type="text/css" href="/assets/icon/ico-fonts/css/icofont.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="/assets/icon/font-awesome/css/font-awesome.css">
     <!-- flag icon framework css -->
     <link rel="stylesheet" type="text/css" href="/assets/pages/flag-icon/flag-icon.min.css">
     <!-- Menu-Search css -->
@@ -39,7 +43,7 @@
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <!--color css-->
-    <link rel="stylesheet" type="text/css" href="/assets/css/color/color-1.css" id="color" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/color/color-3.css" id="color" />
 </head>
 <body class="horizontal-fixed">
     @include('layouts.partials._nav')

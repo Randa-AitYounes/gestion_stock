@@ -340,58 +340,43 @@
         <ul class="main-navigation">
             <li class="nav-item has-class">
                 <a href="#!">
-                    <i class="ti-files"></i>
+                    <i class="ti-clipboard" style="color: cyan;"></i>
                     <span>Factures d'achats</span>
                 </a>
                 <ul class="tree-1">
                     <li><a href="index.html">Ajouter une facture </a></li>
                     <li><a href="widget.html">Liste des factures</a></li>
-                  
+
                 </ul>
             </li>
             <li class="nav-item">
                 <a href="#!">
-                    <i class="ti-layout"></i>
-                    <span>Layouts</span>
+                    <i class="icofont icofont-box" style="color: cyan;"></i>
+                    <span>Produits</span>
                 </a>
                 <ul class="tree-1">
-                    <li class="nav-sub-item"><a href="#">Vertical</a>
+                    <li class="nav-sub-item"><a href="#">Liste de produits</a>
+
                         <ul class="tree-2">
-                            <li><a href="../vertical-static/menu-static.html" target="_blank">Static Layout</a></li>
-                            <li><a href="../vertical-overlay/menu-header-fixed.html" target="_blank">Header Fixed</a>
+                            <li><a href="../vertical-static/menu-static.html" target="_blank">Produits simple</a></li>
+                            <li><a href="../vertical-overlay/menu-header-fixed.html" target="_blank">Produits échantillons</a>
                             </li>
-                            <li><a href="../vertical-compact/menu-compact.html" target="_blank">Compact</a></li>
-                            <li><a href="../vertical-sidebar-fixed/menu-sidebar.html" target="_blank">Sidebar Fixed</a>
-                            </li>
+
                         </ul>
+                        <li><a href="index.html">Ajouter un produit </a></li>
+                        <li><a href="index.html">Affecter un produit à une facture </a></li>
                     </li>
-                    <li class="nav-sub-item"><a href="#">Horizontal</a>
-                        <ul class="tree-2">
-                            <li><a href="../horizontal-static/menu-horizontal-static.html">Static Layout</a></li>
-                            <li><a href="menu-horizontal-fixed.html">Fixed layout</a></li>
-                            <li><a href="../horizontal-fixed-icon/menu-horizontal-icon-fixed.html">Fixed With Icon</a>
-                            </li>
-                            <li><a href="../horizontal-static-icon/menu-horizontal-icon.html">Static With Icon</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="../bottom-menu/menu-bottom.html" target="_blank">Bottom Menu</a></li>
-                    <li><a href="box-layout.html" target="_blank">Box Layout</a>
-                        <label class="label label-warning menu-caption">NEW</label>
-                    </li>
-                    <li><a href="menu-rtl.html" target="_blank">RTL</a></li>
-                    <li><a href="navbar-light.html">Navbar</a></li>
-                    <li><a href="navbar-dark.html">Navbar Inverse</a></li>
-                    <li><a href="navbar-elements.html">Navbar With Elements</a></li>
-                    <li><a href="landing-page.html">Landing Page</a></li>
+
+
                 </ul>
             </li>
             <li class="nav-item">
                 <a href="#!">
-                    <i class="ti-layers"></i>
-                    <span>Pages</span>
+                    <i class="icofont icofont-gift-box" style="color: cyan;"></i>
+                    <span>Stock</span>
                 </a>
                 <ul class="tree-1">
-                    <li class="nav-sub-item"><a href="#">Authentication</a>
+                   <!-- <li class="nav-sub-item"><a href="#">Authentication</a>
                         <ul class="tree-2">
                             <li><a href="auth-normal-sign-in.html" target="_blank">Login With BG Image</a></li>
                             <li><a href="auth-sign-in-social.html" target="_blank">Login With Social Icon</a></li>
@@ -410,108 +395,13 @@
                             <li><a href="auth-lock-screen.html" target="_blank">Lock Screen</a></li>
                             <li><a href="auth-modal.html" target="_blank">Modal</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">Maintenance</a>
-                        <ul class="tree-2">
-                            <li><a href="error.html">Error</a></li>
-                            <li><a href="comming-soon.html">Comming Soon</a></li>
-                            <li><a href="offline-ui.html">Offline UI</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">User Profile</a>
-                        <ul class="tree-2">
-                            <li><a href="timeline.html">Timeline</a></li>
-                            <li><a href="timeline-social.html">Timeline Social</a></li>
-                            <li><a href="user-profile.html">User Profile</a></li>
-                            <li><a href="user-card.html">User Card</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">Blog</a>
-                        <ul class="tree-2">
-                            <li><a href="blog.html" data-i18n="nav.blog.blog">Blog</a></li>
-                            <li><a href="blog-detail.html" data-i18n="nav.blog.blog-detail">Blog Detail</a></li>
-                            <li><a href="blog-detail-left.html" data-i18n="nav.blog.blog-left-side">Blog With Left
-                                    Sidebar</a></li>
-                            <li><a href="blog-detail-right.html" data-i18n="nav.blog.blog-right-sidebar">Blog With Right
-                                    Sidebar</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">E-Commerce</a>
-                        <ul class="tree-2">
-                            <li><a href="product.html" data-i18n="nav.e-commerce.product">Product</a></li>
-                            <li><a href="product-list.html" data-i18n="nav.e-commerce.product-list">Product List</a>
-                            </li>
-                            <li><a href="product-edit.html" data-i18n="nav.e-commerce.product-edit">Product Edit</a>
-                            </li>
-                            <li><a href="product-detail.html" data-i18n="nav.e-commerce.product-detail">Product
-                                    Detail</a></li>
-                            <li><a href="product-cart.html" data-i18n="nav.e-commerce.product-card">Product Cart</a>
-                            </li>
-                            <li><a href="product-payment.html" data-i18n="nav.e-commerce.credit-card-form">Credit Card
-                                    Form </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">Email</a>
-                        <ul class="tree-2">
-                            <li><a href="email-compose.html" data-i18n="nav.email.compose-mail">Compose Email</a></li>
-                            <li><a href="email-inbox.html" data-i18n="nav.email.inbox">Inbox</a></li>
-                            <li><a href="email-read.html" data-i18n="nav.email.read-read-mail">Read Mail</a></li>
-                            <li class="nav-sub-item-3"><a href="#">Email Template</a>
-                                <ul class="tree-3">
-                                    <li><a href="email-templates/email-welcome.html"
-                                            data-i18n="nav.email.email-template.welcome-email">Welcome Email</a></li>
-                                    <li><a href="email-templates/email-password.html"
-                                            data-i18n="nav.email.email-template.reset-password">Reset Password</a></li>
-                                    <li><a href="email-templates/email-newsletter.html"
-                                            data-i18n="nav.email.email-template.newsletter-email">Newsletter Email</a>
-                                    </li>
-                                    <li><a href="email-templates/email-launch.html"
-                                            data-i18n="nav.email.email-template.app-launch">App Launch</a></li>
-                                    <li><a href="email-templates/email-activation.html"
-                                            data-i18n="nav.email.email-template.activation-code">Activation Code</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">Editor</a>
-                        <ul class="tree-2">
-                            <li><a href="ck-editor.html">CK-Editor</a></li>
-                            <li><a href="wysiwyg-editor.html">WYSIWYG Editor</a></li>
-                            <li><a href="ace-editor.html">Ace Editor</a></li>
-                            <li><a href="summernote.html">Summer Note Editor</a></li>
-                            <li><a href="long-press-editor.html">Long Press Editor</a></li>
-                            <li><a href="x-editable.html">X-editable</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">Invoice</a>
-                        <ul class="tree-2">
-                            <li><a href="invoice.html">Invoice</a></li>
-                            <li><a href="invoice-summary.html">Invoice Summary</a></li>
-                            <li><a href="invoice-list.html">Invoice List</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">Event Calendar</a>
-                        <ul class="tree-2">
-                            <li><a href="event-full-calender.html">Full Calendar</a></li>
-                            <li><a href="event-clndr.html">CLNDER
-                                    <label class="label label-info menu-caption">New</label>
-                                </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-sub-item"><a href="#">Internationalize</a>
-                        <ul class="tree-2">
-                            <li><a href="internationalization/internationalization-after-init.html">After Init</a></li>
-                            <li><a href="internationalization/internationalization-fallback.html">Fallback</a></li>
-                            <li><a href="internationalization/internationalization-on-init.html">On Init</a></li>
-                            <li><a href="internationalization/internationalization-resources.html">Resources</a></li>
-                            <li><a href="internationalization/internationalization-xhr-backend.html">XHR Backend</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="image-crop.html">Image Cropper</a></li>
-                    <li><a href="file-upload.html">File Upload</a></li>
+                    </li>-->
+
+
+
+                    <li><a href="image-crop.html">Stock Initial</a></li>
+                    <li><a href="file-upload.html">Stock Externe</a></li>
+                    <li><a href="file-upload.html">Dépot Vente</a></li>
                 </ul>
             </li>
             <li class="nav-item">
