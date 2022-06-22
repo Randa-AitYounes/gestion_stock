@@ -344,7 +344,7 @@
                     <span>Factures d'achats</span>
                 </a>
                 <ul class="tree-1">
-                    <li><a href="index.html">Ajouter une facture </a></li>
+                    <li onclick="modal_facture_show()"><a href="#" >Ajouter une facture </a></li>
                     <li><a href="widget.html">Liste des factures</a></li>
 
                 </ul>
