@@ -345,7 +345,7 @@
                 </a>
                 <ul class="tree-1">
                     <li onclick="modal_facture_show()"><a href="#" >Ajouter une facture </a></li>
-                    <li><a href="widget.html">Liste des factures</a></li>
+                    <li><a href="{{ route('liste_facture') }}">Liste des factures</a></li>
 
                 </ul>
             </li>

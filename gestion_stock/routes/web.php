@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('accueil');
 });
+
+
+
+Route::get('/liste_facture', function () {
+    return view('listeFacture');
+})->name(('liste_facture'));
