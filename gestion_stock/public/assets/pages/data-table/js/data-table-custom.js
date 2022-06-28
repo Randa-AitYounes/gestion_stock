@@ -364,7 +364,7 @@ $(document).ready(function() {
         $(this).toggleClass('selected');
     });
 
-    $('#row-select-btn').on('click',function() {
+    $('#row-select-btn').on('click', function() {
         alert(srow.rows('.selected').data().length + ' row(s) selected');
     });
     // Add Rows end
@@ -380,7 +380,7 @@ $(document).ready(function() {
         }
     });
 
-    $('#row-delete-btn').on('click',function() {
+    $('#row-delete-btn').on('click', function() {
         drow.row('.selected').remove().draw(!1);
     });
     // Delete rows end
@@ -441,7 +441,7 @@ $(document).ready(function() {
     // Form input start
     var table = $('#form-input-table').DataTable();
 
-    $('#form-input-btn').on('click',function() {
+    $('#form-input-btn').on('click', function() {
         var data = table.$('input, select').serialize();
         alert(
             "The following data would have been submitted to the server: \n\n" +
@@ -511,18 +511,32 @@ $(document).ready(function() {
         ]
     });
 
-    $('#multi-colum-dt').DataTable({
+    var getS = $('#multi-colum-dt').DataTable({
         columnDefs: [{
-            targets: [0],
-            orderData: [0, 1]
-        }, {
-            targets: [1],
-            orderData: [1, 0]
-        }, {
-            targets: [4],
-            orderData: [4, 0]
-        }]
+                targets: [0],
+                checkboxes: {
+                    selectRow: true
+                },
+
+                orderData: false
+            }, {
+                targets: [1],
+                orderData: [1, 0]
+            }, {
+                targets: [4],
+                orderData: [4, 0]
+            },
+
+
+
+
+        ]
+
     });
+    /*$('#multi-colum-dt tbody').on('click', 'tr:first-child', function() {
+        var data = getS.row(this).data();
+        console.log(data[1]);
+    });*/
 
     $('#complex-dt').DataTable();
 

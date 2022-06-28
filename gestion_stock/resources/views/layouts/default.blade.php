@@ -44,6 +44,7 @@
     <link rel="stylesheet" type="text/css" href="/bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/pages/data-table/css/buttons.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css">
+    <link type="text/css" href="//gyrocode.github.io/jquery-datatables-checkboxes/1.2.12/css/dataTables.checkboxes.css" rel="stylesheet" />
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <!--color css-->
@@ -97,10 +98,12 @@
     <script src="/bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
     <script src="/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
     <script src="/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.2.12/js/dataTables.checkboxes.min.js"></script>
 <!-- Custom js -->
 <script src="/assets/pages/data-table/js/data-table-custom.js"></script>
 <script type="text/javascript" src="/assets/pages/dashboard/custom-dashboard.js"></script>
 <script type="text/javascript" src="/assets/js/script.js"></script>
 <script type="text/javascript" src="/assets/mes_scripts_js/script_modal.js"></script>
+<script type="text/javascript" src="/assets/mes_scripts_js/script_datatable.js"></script>
 
 </html>
