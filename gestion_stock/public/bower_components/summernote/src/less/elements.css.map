@@ -1,7 +1,9 @@
 {
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "elements.css"
+    "version": 3,
+    "mappings": "AAAA;;;;;uDAKuD",
+    "sources": [
+        "elements.scss"
+    ],
+    "names": [],
+    "file": "elements.css"
 }

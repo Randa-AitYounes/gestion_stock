@@ -100,7 +100,7 @@
     <script src="/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
     <script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.2.12/js/dataTables.checkboxes.min.js"></script>
 <!-- Custom js -->
-<script src="/assets/pages/data-table/js/data-table-custom.js"></script>
+<!--<script src="/assets/pages/data-table/js/data-table-custom.js"></script>-->
 <script type="text/javascript" src="/assets/pages/dashboard/custom-dashboard.js"></script>
 <script type="text/javascript" src="/assets/js/script.js"></script>
 <script type="text/javascript" src="/assets/mes_scripts_js/script_modal.js"></script>

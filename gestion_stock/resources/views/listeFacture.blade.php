@@ -34,10 +34,12 @@
 
                 <select name="select" class="form-control form-control-default">
                     <option value="opt1">Sélectionner une action</option>
-                    <option value="opt2">Ajouter les frais d'approche</option>
-                    <option value="opt3">Modifier les frais d'approche</option>
-                    <option value="opt4">Modifier la facture</option>
-                    <option value="opt5">Supprimer la facture</option>
+                    <option value="Ajouter les frais dapproche">Ajouter les frais d'approche</option>
+                    <option value="Modifier les frais dapproche">Modifier les frais d'approche</option>
+                    <option value="Modifier la facture">Modifier la facture</option>
+                    <option value="Modifier la facture">Ajouter des produits à la facture</option>
+                    <option value="Modifier la facture">Ajouter de nouveaux produits à la facture</option>
+                    <option value="Supprimer la facture">Supprimer la facture</option>
 
                 </select>
             </div>
@@ -54,7 +56,7 @@
             <table id="multi-colum-dt" class="table table-striped table-bordered nowrap">
                 <thead>
                     <tr>
-                        <th></th>
+
                         <th>Name</th>
                         <th>Position</th>
                         <th>Office</th>
@@ -65,7 +67,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td></td>
+
                         <td>System Architect</td>
                         <td>Edinburgh</td>
                         <td>61</td>
@@ -74,7 +76,7 @@
                         <td>Tiger Nixon</td>
                     </tr>
                     <tr>
-                        <td></td>
+
                         <td>Garrett Winters</td>
                         <td>Accountant</td>
                         <td>Tokyo</td>

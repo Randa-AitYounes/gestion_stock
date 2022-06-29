@@ -517,6 +517,10 @@ $(document).ready(function() {
                 checkboxes: {
                     selectRow: true
                 },
+                select: {
+                    style: 'os',
+                    selector: 'td:first-child'
+                },
 
                 orderData: false
             }, {
@@ -533,10 +537,15 @@ $(document).ready(function() {
         ]
 
     });
+    /*$('#multi-colum-dt tbody').on('click', 'tr', function() {
+        $(this).toggleClass('selected');
+        console.log(getS.rows('.selected').data().length + ' row(s) selected');
+    });*/
     /*$('#multi-colum-dt tbody').on('click', 'tr:first-child', function() {
         var data = getS.row(this).data();
         console.log(data[1]);
     });*/
+
 
     $('#complex-dt').DataTable();
 

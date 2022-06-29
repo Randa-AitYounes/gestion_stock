@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAIQ,WAJG,AAEN,cAAc,CAEX,mBAAmB,AAAA,OAAO,CAAC;EACvB,OAAO,EAAE,QAAQ;CAAG;;AALhC,AASQ,WATG,AAON,gBAAgB,CAEb,mBAAmB,AAAA,OAAO,CAAC;EACvB,OAAO,EAAE,SAAS;CAAG",
+    "sources": [
+        "offline-language-german-indicator.sass"
+    ],
+    "names": [],
+    "file": "offline-language-german-indicator.css"
+}

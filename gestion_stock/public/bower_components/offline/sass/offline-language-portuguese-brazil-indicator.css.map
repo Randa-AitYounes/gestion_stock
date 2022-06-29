@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAIQ,WAJG,AAEN,cAAc,CAEX,mBAAmB,AAAA,OAAO,CAAC;EACvB,OAAO,EAAE,WAAW;CAAG;;AALnC,AASQ,WATG,AAON,gBAAgB,CAEb,mBAAmB,AAAA,OAAO,CAAC;EACvB,OAAO,EAAE,cAAc;CAAG",
+    "sources": [
+        "offline-language-portuguese-brazil-indicator.sass"
+    ],
+    "names": [],
+    "file": "offline-language-portuguese-brazil-indicator.css"
+}
