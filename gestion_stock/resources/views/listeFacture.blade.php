@@ -57,12 +57,12 @@
                 <thead>
                     <tr>
 
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
+                        <th>N° Facture</th>
+                        <th>Date </th>
+                        <th>Fournisseur</th>
+                        <th>Total HT</th>
+                        <th>Total TTC</th>
+
                     </tr>
                 </thead>
                 <tbody>
@@ -73,7 +73,7 @@
                         <td>61</td>
                         <td>2011/04/25</td>
                         <td>$320,800</td>
-                        <td>Tiger Nixon</td>
+
                     </tr>
                     <tr>
 
@@ -82,7 +82,7 @@
                         <td>Tokyo</td>
                         <td>63</td>
                         <td>2011/07/25</td>
-                        <td>$170,750</td>
+
                     </tr>
 
                 </tbody>

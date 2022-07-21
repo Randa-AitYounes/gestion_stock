@@ -26,6 +26,7 @@ $(document).ready(function() {
         ]
 
     });
+
     $('#multi-colum-dt tbody').on('click', 'tr', function() {
         $(this).toggleClass('selected');
         var length = getS.rows('.selected').data().length;
@@ -43,8 +44,9 @@ $(document).ready(function() {
         } else {
             $("select option:contains(" + variable + ")").attr("disabled", false);
             $("select option:contains(" + variable2 + ")").attr("disabled", false);
+            $("select option:contains(" + variable3 + ")").attr("disabled", false);
+            $("select option:contains(" + variable4 + ")").attr("disabled", false);
             $("select option:contains('Modifier la facture')").attr("disabled", false);
-
         }
     });
 
